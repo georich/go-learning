@@ -3,10 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	foo(42)
+	foo()
 }
 
-func foo(x int) {
+func foo() {
+	x := 42
 	{
 		y := 42
 		x := 100 + y
