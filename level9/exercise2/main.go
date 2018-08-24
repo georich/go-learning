@@ -17,7 +17,7 @@ func (p *person) speak() string {
 }
 
 func saySomething(h human) {
-	fmt.Println("speak", h.speak())
+	fmt.Println("speak():", h.speak())
 }
 
 func main() {
